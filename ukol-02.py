@@ -23,6 +23,5 @@ if soucastka in sklad:
 
 else:
     print("Součástka není skladem")
-
-
-
+    
+    

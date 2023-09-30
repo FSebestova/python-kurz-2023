@@ -11,3 +11,10 @@ print(jmeno_a_prijmeni.lower()) #malá
 l=jmeno_a_prijmeni.find(" ")
 print(jmeno_a_prijmeni[:l].capitalize() + " " + jmeno_a_prijmeni[l+1:].capitalize()) 
 print(jmeno_a_prijmeni[0:1].capitalize() + "."+" " + jmeno_a_prijmeni[l+1:l+2].capitalize()+".") 
+
+delka=len(jmeno_a_prijmeni)
+print delka
+l=jmeno_a_prijmeni.find(" ")
+if jmeno_a_prijmeni[:l] > 5:
+    print(jmeno_a_prijmeni[0:1].capitalize())
+    
