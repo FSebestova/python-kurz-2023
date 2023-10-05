@@ -45,3 +45,15 @@ morse_code = {
     "(": "-.--.",
     ")": "-.--.-",
 }
+
+text = input("Jaký text chcete zapsat v Morseově abecedě? ")
+nospaces = text.replace(" ", "/")
+print(nospaces)
+lst = []
+for letter in nospaces:
+    lst.append(letter)
+    print(morse_code[letter], end=" ")
+
+
+
+
